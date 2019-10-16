@@ -19,6 +19,34 @@ header {
 
 }
 
+
+h2 {
+    margin: 0 0 0 50px;
+padding: 25px 0 0 0;
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 1.8em;
+font-style: italic;
+font-weight: 800;
+line-height: 0.80em;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+border-left: 1px solid #bcbdc0;
+border-right: 1px solid #bcbdc0;
+float: left;
+}
+
+
+h3 {
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+
 header > nav > ul > li {
     background-color: burlywood;
     border-radius: 25px;
@@ -31,11 +59,7 @@ header > nav > ul > li {
     
 }
 
-header > h1{
-    
-  
 
-}
 
 body{
     background-color: bisque;
@@ -43,19 +67,10 @@ body{
 }
 
 main {
-    margin: 10px;
-    width: 960px;
+   
     background-color: bisque;
 }
 
 ul{
 float: left;
 text-align: center;
-
-}
-
-h2 {
-    text-align: center;
-
-
-}
