@@ -30,9 +30,9 @@ main {
 
 li  {
     display: inline-block;
-    
     text-decoration: none;
     text-align: center;
+    left: 100px;
     padding: 5px;
     margin: 5px;
     width: 200px;
@@ -43,7 +43,7 @@ li  {
 #right {
 
 /*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
-left: 100px;
+left: 250px;
 position: relative;
 background-repeat: no-repeat;
 background-size: 500px 500px;
@@ -87,6 +87,7 @@ line-height: 20px;
     
     /*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
     position: relative;
+    left: 170px;
     background-repeat: no-repeat;
     background-size: 500px 500px;
     color: black;
@@ -102,7 +103,7 @@ line-height: 20px;
         
         /*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
         position: relative;
-        left: 25px;
+        left: 70px;
         background-repeat: no-repeat;
         background-size: 500px 500px;
         color: black;
