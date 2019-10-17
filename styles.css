@@ -1,38 +1,63 @@
 
 * {
-    border: 1px solid bisque;
-    margin: 0px auto;
-    width: 1000px;
-    font-family: Helvetica, Arial, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
+background-color: bisque;
+}
+
+header {
+    background-color: bisque;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+header > nav > ul > li {
+    background-color: burlywood;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
     
 }
 
-header > nav {
-    float: right;
+main {
+    background-color: bisque;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li  {
+    display: inline-block;
+    
     text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: burlywood;
+    
+    
 }
 
-/* header specific */
-header {
-    height: 200px;
-    margin-left: 960;
-
-}
 
 
 h2 {
     margin: 0 0 0 50px;
-padding: 25px 0 0 0;
-font-family: 'Open Sans', arial, sans-serif;
-font-size: 1.8em;
-font-style: italic;
-font-weight: 800;
-line-height: 0.80em;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-border-left: 1px solid #bcbdc0;
-border-right: 1px solid #bcbdc0;
-float: left;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;
+    
 }
 
 
@@ -43,34 +68,14 @@ h3 {
     line-height: 0.80em;
     letter-spacing: -0.02em;
     text-align: center;
-
 }
 
-
-header > nav > ul > li {
-    background-color: burlywood;
-    border-radius: 25px;
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px;
+h4 {
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
     text-align: center;
-
-    
+    font-size: 20px;
 }
-
-
-
-body{
-    background-color: bisque;
-
-}
-
-main {
-   
-    background-color: bisque;
-}
-
-ul{
-float: left;
-text-align: center;
