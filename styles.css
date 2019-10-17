@@ -19,9 +19,7 @@ header > nav > ul > li {
     text-align: center;
     padding: 5px;
     margin: 5px;
-    width: 200px;
-    
-    
+    width: 200px;   
 }
 
 main {
@@ -43,24 +41,49 @@ li  {
 }
 
 #right {
-float: center;
-background-image: url(https://i0.wp.com/www.gorillasafaris-uganda.com/wp-content/uploads/2018/05/murchison-fall-park-800x400.jpg);
+
+/*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
 left: 100px;
 position: relative;
+background-repeat: no-repeat;
+background-size: 500px 500px;
+color: black;
+width: 600px;
+border: 5px solid cornsilk;
+padding: 10px;
+border-radius: 5px;
+line-height: 20px;
+
 }
 
 #farright {
-    float: left;
-    background-image: url(https://www.kasandbox.org/programming-images/animals/cheetah.png);
-    left: 500px;
+    
+    /*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
     position: relative;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    color: black;
+    width: 600px;
+    border: 5px solid cornsilk;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 20px;
+    
     }
    
  #left {
-        float: right;
-        background-image: url(https://www.kasandbox.org/programming-images/landscapes/mountains-and-lake.png);
+        
+        /*background-image: url(https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/africa/uganda-travel.ngsversion.1503896485081.adapt.1900.1.jpg);*/
         position: relative;
         left: 25px;
+        background-repeat: no-repeat;
+        background-size: 500px 500px;
+        color: black;
+        width: 600px;
+        border: 5px solid cornsilk;
+        padding: 10px;
+        border-radius: 5px;
+        line-height: 20px;
         } 
 
 h2 {
